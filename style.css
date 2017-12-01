@@ -1,0 +1,73 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 5px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+canvas{
+    margin: 0 auto;
+    border: 3px solid #aba17e;
+}
+.rules{
+    height: 400px;
+}
+.rules h3{
+    color:#cc3f3f;
+}
+.rules img{
+    position: absolute;
+}
+
+.move{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.rules .move img:first-of-type{
+    clip: rect(35px, 100px, 72px, 67px);
+    left: 144px;
+    top: 11px;
+}
+.rules .move img:nth-of-type(2){
+    clip: rect(35px, 37px, 70px, 0px);
+    top: 11px;
+    left: 120px;
+}
+.rules .move img:nth-of-type(3){
+    clip: rect(33px, 67px, 69px, 35px);
+    top: 38px;
+    left: 132px;
+}
+
+.rules .rotate{
+    position: relative;
+}
+.rules .rotate img:first-of-type{
+    top: 46px;
+    left: 194px;
+}
+.rules .rotate img:nth-of-type(2){
+    top: 46px;
+    left: 117px;
+}
+.score{
+    display: inline-block;
+   /* border: 1px solid red;*/
+    height: 150px;
+}
+.score .level{
+    margin-bottom: 10px;
+}
+.score span{
+    margin-left: 18px;
+    font-size: 27px;
+    font-weight: bold;
+    background: #efeeee;
+    padding: 4px;
+}

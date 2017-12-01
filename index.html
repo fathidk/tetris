@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris game</title>
+</head>
+<body>
+    <h1>Tetris game</h1>
+    <hr>
+    <div class="container">
+      <div class="rules">
+          <h2>Rules</h2>
+          <hr>
+          <div class="move">
+              <h3> To move : </h3>
+                <img src="arrowKeys.png" alt="arrow left" width="100">  
+                <img src="arrowKeys.png" alt="arrow left" width="100">
+                <img src="arrowKeys.png" alt="arrow left" width="100">
+          </div>
+          <div class="rotate">
+              <h3> To rotate : </h3>
+              <img src="computer_key_D.png" alt="D letter" width="50">
+              <img src="computer_key_Q.png" alt="Q letter" width="50">
+          </div>
+
+
+         
+      </div>
+      <canvas id="gamefield" width="400px" height="500px"></canvas>
+      <div class="score">
+            <h2>Score</h2>
+            <hr>
+          <div class="level">Level: <span id="level">0001</span> </div>
+          <div class="points">Points:<span id ="score">0000</span></div>
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
